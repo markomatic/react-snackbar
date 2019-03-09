@@ -1,0 +1,31 @@
+.MMReactSnackbar {
+  .MMReactSnackbar-successContent {
+    background-color: green;
+  }
+
+  .MMReactSnackbar-errorContent {
+    background-color: darkred;
+  }
+
+  .MMReactSnackbar-infoContent {
+    background-color: darkblue;
+  }
+
+  .MMReactSnackbar-warningContent {
+    background-color: #b3b200;
+  }
+
+  .MMReactSnackbar-icon {
+    font-size: 20px;
+
+    &.iconType {
+      opacity: 0.9;
+      margin-right: 10px;
+    }
+  }
+
+  .MMReactSnackbar-message {
+    display: flex;
+    align-items: center;
+  }
+}
